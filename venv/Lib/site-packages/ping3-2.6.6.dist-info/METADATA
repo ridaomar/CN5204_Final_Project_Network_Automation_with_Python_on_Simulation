@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ping3
+Version: 2.6.6
+Summary: A pure python3 version of ICMP ping implementation using raw socket.
+Home-page: https://github.com/kyan001/ping3
+Author: Kai Yan
+Author-email: kai@kyan001.com
+License: MIT
+Keywords: python3 ping icmp socket tool
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
+
+Ping3 is a pure python3 version of ICMP ping implementation using raw socket. Note that ICMP messages can only be sent from processes running as root.
+
+

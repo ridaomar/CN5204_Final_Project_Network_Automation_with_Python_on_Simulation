@@ -1,0 +1,39 @@
+{
+  "devices": [
+    {
+      "device_type": "cisco_ios",
+      "host": "10.10.10.1",
+      "username": "admin",
+      "password": "admin",
+      "enable_password": "admin"
+    },
+    {
+      "device_type": "cisco_ios",
+      "host": "172.1.1.10",
+      "username": "admin",
+      "password": "admin",
+      "enable_password": "cisco"
+    },
+    {
+      "device_type": "mikrotik_routeros",
+      "host": "192.168.10.10",
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "commands": [
+    {
+      "type": "cisco_ios",
+      "commands": [
+        "hostname UOB-Switch",
+        "banner motd $",
+        "UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED!$",
+        "do wr"
+      ]
+    },
+    {
+      "type": "mikrotik_routeros",
+      "commands": ["ip", "hotspot", "user", "add", "rida"]
+    }
+  ]
+}
