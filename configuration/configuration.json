@@ -33,7 +33,13 @@
     },
     {
       "type": "mikrotik_routeros",
-      "commands": ["ip", "hotspot", "user", "add", "rida"]
+      "commands": [
+        "ip",
+        "hotspot",
+        "user",
+        "add",
+        "rida"
+      ]
     }
   ]
 }
